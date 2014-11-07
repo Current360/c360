@@ -12,5 +12,17 @@
  *
  *= require_self
  */
+/* FRAMEWORK */
 @import 'bourbon';
 @import 'neat';
+@import 'reset';
+
+/* GLOBAL */
+@import 'global';
+@import 'header';
+@import 'footer';
+@import 'buttons';
+@import 'forms';
+
+/* PAGES */
+@import 'home';

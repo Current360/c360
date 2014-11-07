@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+
+  match '/culture' => 'static_pages#culture', via: [:get]
+  match '/work' => 'static_pages#work', via: [:get]
+  match '/strategy' => 'static_pages#strategy', via: [:get]
+  match '/contact' => 'static_pages#contact', via: [:get]
+  match '/life' => 'static_pages#life', via: [:get]
+  match '/careers' => 'static_pages#careers', via: [:get]
+  root 'pages#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
