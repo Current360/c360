@@ -1,15 +1,16 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'c360'
+set :repo_url, 'git@github.com:Current360/c360.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-# set :deploy_to, '/var/www/my_app'
+set :deploy_to, '/home/websites/c360'
 
+set :ssh_options, { :forward_agent => true }
 # Default value for :scm is :git
 # set :scm, :git
 
