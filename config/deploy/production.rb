@@ -15,7 +15,7 @@ role :db,  %w{cmgeeks@c360geeks.com}
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-server 'c360geeks.com', user: 'c360geeks', roles: %w{web app}, my_property: :my_value
+server 'c360geeks.com', user: 'cmgeeks', roles: %w{web app}, my_property: :my_value, password: 'c360PW@)!$'
 
 
 # Custom SSH Options
