@@ -4,28 +4,48 @@
 		"selected_items":
 		[
 			[
-				"fon",
-				"font-size"
+				"min",
+				"min-width"
+			],
+			[
+				"pad",
+				"padding-top"
 			],
 			[
 				"mar",
 				"margin"
 			],
 			[
+				"fon",
+				"font-weight"
+			],
+			[
 				"marg",
-				"margin-bottom"
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
 			],
 			[
 				"bor",
-				"border"
+				"border-color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
+				"lis",
+				"list-style"
 			],
 			[
 				"b",
 				"block"
-			],
-			[
-				"pad",
-				"padding-left"
 			],
 			[
 				"tex",
@@ -40,20 +60,8 @@
 				"padding"
 			],
 			[
-				"ba",
-				"background"
-			],
-			[
 				"te",
 				"text-align"
-			],
-			[
-				"font",
-				"font-style"
-			],
-			[
-				"lis",
-				"list-style-image"
 			],
 			[
 				"imp",
@@ -82,10 +90,6 @@
 			[
 				"max",
 				"max-width"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"padd",
@@ -244,26 +248,34 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "app/views/layouts/_header.html.erb",
 			"settings":
 			{
-				"buffer_size": 294,
+				"buffer_size": 783,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/stylesheets/application.css.scss",
+			"file": "app/assets/stylesheets/_global.scss",
 			"settings":
 			{
-				"buffer_size": 698,
+				"buffer_size": 3273,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/stylesheets/_colors.scss",
+			"file": "app/assets/stylesheets/_header.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/_nav.scss",
+			"settings":
+			{
+				"buffer_size": 1906,
 				"line_ending": "Unix"
 			}
 		}
@@ -300,7 +312,24 @@
 	},
 	"file_history":
 	[
+		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/application.css.scss",
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/application.html.erb",
+		"/Users/jerrodlong/Desktop/c360/app/views/pages/index.html.erb",
+		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_home.scss",
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/_footer.html.erb",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_footer.scss",
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/_locations.html.erb",
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/home/_culture.html.erb",
+		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_header.scss",
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/home/_blog.html.erb",
+		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_buttons.scss",
+		"/Users/jerrodlong/Desktop/c360/app/controllers/pages_controller.rb",
+		"/Users/jerrodlong/Desktop/c360/config/routes.rb",
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/home/_casestudy.html.erb",
+		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_global.scss",
+		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_forms.scss",
+		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_colors.scss",
+		"/Users/jerrodlong/Desktop/c360/config/database.yml",
 		"/Users/jerrodlong/Desktop/c360/Gemfile",
 		"/Users/jerrodlong/Desktop/c360/.gitignore",
 		"/Users/jerrodlong/Desktop/Sites2/maxstrum/wp-content/themes/maxstrum/searchform.php",
@@ -426,6 +455,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
 			"(../",
 			"(QUESTION)",
 			"high",
@@ -568,18 +598,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "app/views/layouts/_header.html.erb",
 					"settings":
 					{
-						"buffer_size": 294,
+						"buffer_size": 783,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								145,
-								145
+								197,
+								200
 							]
 						],
 						"settings":
@@ -587,7 +617,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -598,23 +630,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "app/assets/stylesheets/application.css.scss",
+					"file": "app/assets/stylesheets/_global.scss",
 					"settings":
 					{
-						"buffer_size": 698,
+						"buffer_size": 3273,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								698,
-								698
+								508,
+								508
 							]
 						],
 						"settings":
@@ -622,7 +654,8 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -632,18 +665,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/assets/stylesheets/_colors.scss",
+					"file": "app/assets/stylesheets/_header.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1110,
+								1110
 							]
 						],
 						"settings":
@@ -651,7 +684,40 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 94.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/stylesheets/_nav.scss",
+					"settings":
+					{
+						"buffer_size": 1906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -695,7 +761,7 @@
 		"rows":
 		[
 			0.0,
-			0.426625228102,
+			0.428085615299,
 			1.0
 		]
 	},

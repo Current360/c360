@@ -17,9 +17,9 @@ $lightgrey: #f4f4f4; /* panels-callouts */
 		BREAKPOINTS
 
 --------------------------- */
-$tablet: new-breakpoint(min-width 48em);
-$laptop: new-breakpoint(min-width 64em);
-$large: new-breakpoint(min-width 87.5em);
+$tablet: new-breakpoint(min-width 48em); // 768px
+$laptop: new-breakpoint(min-width 64em); // 1024px
+$large: new-breakpoint(min-width 87.5em); // 1400px
 
 /* ---------------------------
 

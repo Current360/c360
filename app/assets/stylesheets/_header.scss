@@ -2,7 +2,13 @@ header {
     background: $text;
     min-height: 72px;
 
-    .toggle {
+    .toggle, .arrrow {
+        @include media($laptop) {
+            height: 0;
+            overflow: hidden;
+            width: 0;
+        }
+
         @include hide-text;
         background: asset-url("icons/burger.png", image);
         background-color: $links;
@@ -34,11 +40,15 @@ header {
         position: relative;
         top: 12px;
         width: 56px;
+
+
+         @include media($laptop) {
+            height: 0;
+            overflow: hidden;
+            width: 0;
+        }
     }
 }
- form {
-        display: none;
-    }
 
 
 
