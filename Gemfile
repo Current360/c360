@@ -30,6 +30,8 @@ gem 'spring',        group: :development
 gem 'capistrano', group: :development
 gem 'capistrano-rails'
 
+gem 'dotenv-deployment'
+
 
 # --------------------- c360 GRID SYSTEM ----------------------
 gem 'bourbon'
