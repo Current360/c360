@@ -27,11 +27,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+
+
+# ADDED FOR DEPLOYMENT
 gem 'capistrano', group: :development
 gem 'capistrano-rails'
-
-gem 'dotenv-deployment'
-
+gem 'colorize'
 
 # --------------------- c360 GRID SYSTEM ----------------------
 gem 'bourbon'

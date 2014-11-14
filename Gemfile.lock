@@ -50,9 +50,6 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     colorize (0.7.3)
-    dotenv (1.0.2)
-    dotenv-deployment (0.2.0)
-      dotenv (~> 1.0)
     erubis (2.7.0)
     execjs (2.2.2)
     hike (1.2.3)
@@ -68,9 +65,9 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    minitest (5.4.2)
+    minitest (5.4.3)
     multi_json (1.10.1)
-    mysql2 (0.3.16)
+    mysql2 (0.3.17)
     neat (1.5.1)
       bourbon (>= 3.1)
       sass (~> 3.2.19)
@@ -128,7 +125,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.5.1)
+    turbolinks (2.5.2)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -144,7 +141,7 @@ DEPENDENCIES
   capistrano
   capistrano-rails
   coffee-rails (~> 4.0.0)
-  dotenv-deployment
+  colorize
   jbuilder (~> 2.0)
   jquery-rails
   mysql2
