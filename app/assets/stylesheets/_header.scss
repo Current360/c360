@@ -2,7 +2,7 @@ header {
     background: $text;
     min-height: 72px;
 
-    .toggle, .arrrow {
+    #toggle, .arrrow {
         @include media($laptop) {
             height: 0;
             overflow: hidden;

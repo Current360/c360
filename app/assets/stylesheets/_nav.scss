@@ -67,7 +67,7 @@ nav {
         width: 100%;
     }
 
-    .close {
+    #close {
         @include hide-text;
         background: asset-url("icons/burger.png", image);
         background-color: $links;
@@ -97,63 +97,151 @@ nav:target {
     width: 100%;
 }
 
+
+
+
+
+
+ #nav {
+    position: absolute;
+    top: 0;
+    padding-top: 5.25em;
+  }
+  #nav:not(:target) {
+    z-index: 1;
+    height: 0;
+  }
+  #nav:target .close-btn {
+    display: block;
+  }
+  #nav .close-btn {
+    position: absolute;
+    top: -3.75em;
+    left: 1.875em;
+  }
+  #nav .block {
+    position: relative;
+    padding: 0;
+  }
+  #nav li {
+    position: relative;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  #nav li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  #nav li.is-active:after {
+    z-index: 50;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -0.03125em;
+    margin-top: -0.625em;
+    border-top: 0.625em transparent solid;
+    border-bottom: 0.625em transparent solid;
+    border-right: 0.625em white solid;
+  }
+  #nav li a {
+    padding: 0.85714em 2.14286em;
+  }
+
+  .js-ready #nav {
+    height: 100%;
+    width: 70%;
+    background: #333333;
+    -webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+    box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+  }
+  .js-ready #nav .block {
+    background: transparent;
+  }
+  .js-ready #nav .close-btn {
+    display: block;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+  }
+  .js-ready #nav .close-btn:focus, .js-ready #nav .close-btn:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+
+  .js-ready #nav {
+    left: -70%;
+  }
+  .js-ready #inner-wrap {
+    left: 0;
+  }
+
+  .js-nav #inner-wrap {
+    left: 70%;
+  }
+
+
+
+
+
+
+
+
 @include media($laptop) {
-        nav {
-            @include outer-container;
+    nav {
+        @include outer-container;
 
-            height: 72px;
-            overflow: visible;
-            position: relative;
-            top: -72px;
-            z-index: 2;
+        height: 72px;
+        overflow: visible;
+        position: relative;
+        top: -72px;
+        z-index: 2;
 
-            .close, .triangle {
-                height: 0;
-                width: 0;
+        #close, .triangle {
+            height: 0;
+            width: 0;
+        }
+        ul {
+            float: left;
+            max-width: none;
+            width: 700px;
+            li {
+            display: block;
+            float: left;
+            height: 4.9em;
             }
-            ul {
-                float: left;
-                max-width: none;
-                width: 700px;
-                li {
-                display: block;
-                float: left;
-                height: 4.9em;
-                }
-                a {
-                    height: 4.4em;
-                    padding: 0;
-                    text-indent: 0;
-                }
-            }
-
-            form {
-                position: initial;
-                float: left;
-                width: 280px;
-            }
-
-            .contact-link {
-                color: white;
-                display: block;
-                float: left;
-                font-size: 1em;
-                height: 4.5em;
-                max-width: initial;
-                position: initial;
+            a {
+                height: 4.4em;
+                padding: 0;
                 text-indent: 0;
-                width: initial;
             }
         }
 
-        .home-link {
-            @include hide-text;
-            background: asset-url('logos/full-screen-logo-background.png', image);
-            display: block;
-            height: 161px;
+        form {
+            position: initial;
+            float: left;
             width: 280px;
-            }
-            .home-link:hover {
-                background: asset-url('logos/full-screen-logo-background.png', image);
-            }
+        }
+
+        .contact-link {
+            color: white;
+            display: block;
+            float: left;
+            font-size: 1em;
+            height: 4.5em;
+            max-width: initial;
+            position: initial;
+            text-indent: 0;
+            width: initial;
+        }
     }
+
+    .home-link {
+        @include hide-text;
+        background: asset-url('logos/full-screen-logo-background.png', image);
+        display: block;
+        height: 161px;
+        width: 280px;
+        }
+        .home-link:hover {
+            background: asset-url('logos/full-screen-logo-background.png', image);
+        }
+}
