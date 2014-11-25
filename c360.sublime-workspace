@@ -256,14 +256,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/_header.html.erb",
-			"settings":
-			{
-				"buffer_size": 782,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/assets/stylesheets/_header.scss",
 			"settings":
 			{
@@ -312,17 +304,19 @@
 	},
 	"file_history":
 	[
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/_header.html.erb",
+		"/Users/jerrodlong/Desktop/c360/config/secrets.yml",
+		"/Users/jerrodlong/Desktop/c360/Capfile",
+		"/Users/jerrodlong/Desktop/c360/config/environments/production.rb",
+		"/Users/jerrodlong/Desktop/c360/config/deploy/production.rb",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_nav-step1.scss",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_nav.scss",
 		"/Users/jerrodlong/Desktop/c360/app/assets/javascripts/application.js",
 		"/Users/jerrodlong/Desktop/c360/app/assets/javascripts/_nav.js",
 		"/Users/jerrodlong/Desktop/c360/Gemfile",
 		"/Users/jerrodlong/Desktop/c360/config/database.yml",
-		"/Users/jerrodlong/Desktop/c360/config/secrets.yml",
 		"/Users/jerrodlong/Desktop/c360/config/deploy.rb",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/application.css.scss",
-		"/Users/jerrodlong/Desktop/c360/Capfile",
-		"/Users/jerrodlong/Desktop/c360/config/deploy/production.rb",
 		"/Users/jerrodlong/Desktop/c360/key.txt",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_header.scss",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_global.scss",
@@ -437,9 +431,7 @@
 		"/Users/jerrodlong/Desktop/Sites/Belle/boilerplate/header.php",
 		"/Users/jerrodlong/Desktop/Sites2/IE/2-14.csv",
 		"/Users/jerrodlong/Desktop/Sites2/IE/img/GenJackSlider.jpg",
-		"/Users/jerrodlong/Desktop/Sites2/IE/img/newDining.jpg",
-		"/Users/jerrodlong/Desktop/Sites2/Belle/IE/style.css",
-		"/Users/jerrodlong/Desktop/Sites2/Belle/sftp-config-alt.json"
+		"/Users/jerrodlong/Desktop/Sites2/IE/img/newDining.jpg"
 	],
 	"find":
 	{
@@ -596,48 +588,15 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"sheets":
+			[
+			]
+		},
+		{
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/_header.html.erb",
-					"settings":
-					{
-						"buffer_size": 782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 1,
 					"file": "app/assets/stylesheets/_header.scss",
 					"settings":
 					{
@@ -668,7 +627,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "app/assets/stylesheets/_nav.scss",
 					"settings":
 					{
