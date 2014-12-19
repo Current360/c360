@@ -256,6 +256,30 @@
 	"buffers":
 	[
 		{
+			"file": "RUBY-DEPLOYMENT-PROCESS.txt",
+			"settings":
+			{
+				"buffer_size": 5095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/home/_culture.html.erb",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1153,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/assets/stylesheets/_header.scss",
 			"settings":
 			{
@@ -304,6 +328,7 @@
 	},
 	"file_history":
 	[
+		"/Users/jerrodlong/Desktop/c360/app/views/layouts/home/_casestudy.html.erb",
 		"/Users/jerrodlong/Desktop/c360/app/views/layouts/_header.html.erb",
 		"/Users/jerrodlong/Desktop/c360/config/secrets.yml",
 		"/Users/jerrodlong/Desktop/c360/Capfile",
@@ -331,7 +356,6 @@
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_buttons.scss",
 		"/Users/jerrodlong/Desktop/c360/app/controllers/pages_controller.rb",
 		"/Users/jerrodlong/Desktop/c360/config/routes.rb",
-		"/Users/jerrodlong/Desktop/c360/app/views/layouts/home/_casestudy.html.erb",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_forms.scss",
 		"/Users/jerrodlong/Desktop/c360/app/assets/stylesheets/_colors.scss",
 		"/Users/jerrodlong/Desktop/c360/.gitignore",
@@ -588,15 +612,108 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "RUBY-DEPLOYMENT-PROCESS.txt",
+					"settings":
+					{
+						"buffer_size": 5095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5095
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/home/_culture.html.erb",
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								630
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
 			"sheets":
 			[
 				{
-					"buffer": 0,
+					"buffer": 3,
 					"file": "app/assets/stylesheets/_header.scss",
 					"settings":
 					{
@@ -627,7 +744,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 4,
 					"file": "app/assets/stylesheets/_nav.scss",
 					"settings":
 					{
